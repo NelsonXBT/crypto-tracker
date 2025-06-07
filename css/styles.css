@@ -30,7 +30,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 30px;
+  padding: 2rem 3rem;
   background-color: #0e0e0e;
   flex-wrap: wrap;
   position: relative;
@@ -39,23 +39,23 @@ img {
 .logo {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 0.2rem;
   color: white;
 }
 
 .logo img {
-  height: 30px;
+  height: 2.5rem;
 }
 
 .logo h1 {
-  font-size: 20px;
+  font-size: 1.2rem;
   margin: 0;
   color: white;
 }
 
 .nav-links {
   display: flex;
-  gap: 30px;
+  gap: 1rem;
   list-style: none;
 }
 
@@ -66,13 +66,13 @@ img {
 
 .search-form {
   display: flex;
-  gap: 10px;
+   gap: 1rem;
 }
 
 /* Hamburger hidden on desktop */
 .hamburger {
   display: none;
-  font-size: 28px;
+  font-size: 2rem;
   color: white;
   cursor: pointer;
 }

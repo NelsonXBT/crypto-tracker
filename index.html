@@ -229,5 +229,19 @@ FOOTER SECTION
 
 
 
+
+
+
+
+ <script>
+  const hamburger = document.getElementById('hamburger');
+  const navLinks = document.getElementById('navLinks');
+  const searchForm = document.querySelector('.search-form');
+
+  hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('show');
+    searchForm.classList.toggle('show');
+  });
+</script>
 </body>
 </html>
