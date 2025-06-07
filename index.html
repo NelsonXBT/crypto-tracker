@@ -1,0 +1,225 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="icon" href="./assets/favicon.png">
+    <title>CryptoTracker Dashboard</title>
+</head>
+<body>
+ <!--
+
+HEADER SECTION
+
+-->
+
+<header>
+    <nav>
+        <div class="logo">
+            <img src="./assets/logo.png" alt="CryptoTracker logo">
+        </div>
+        <ul>
+            <li>Home</li>
+            <li>Airdrops</li>
+            <li>Tokens</li>
+        </ul>
+        <!-- SEARCH BAR -->
+         <form class="search-form">
+            <input type="text" placeholder="🔍" name="search" />
+            <button type="submit">Sign Up</button>
+        </form>
+    </nav>
+
+</header>
+
+
+
+<!--
+
+HERO SECTION 
+
+-->
+<section>
+        <h3>Trending Tokens</h3>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                    <th>Token</th>
+                    <th>Price</th>
+                    <th>24h Change</th>
+                    <th>Market Cap</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td>  <img src="./assets/bitcoin.webp" alt="BTC Logo" width="20" height="20" style="vertical-align: middle; margin-right: 8px;"> BTC</td>
+                    <td>$105k</td>
+                    <td>+5.4%</td>
+                    <td>$1.3T</td>
+                    </tr>
+                    <tr>
+                    <td> <img src="./assets/ethereum.webp" alt="ETH Logo" width="20" height="20" style="vertical-align: middle; margin-right: 8px;"> ETH </td>
+                    <td>$2625</td>
+                    <td>-3.4%</td>
+                    <td>$445B</td>
+                    </tr>
+                    <tr>
+                    <td> <img src="./assets/bnb-icon2_2x.webp" alt="BNB Logo" width="20" height="20" style="vertical-align: middle; margin-right: 8px;"> BNB </td>
+                    <td>$651.52</td>
+                    <td>=0.7%</td>
+                    <td>$95B</td>
+                    </tr>
+                    <tr>
+                    <td> <img src="./assets/solana.webp" alt="SOL Logo" width="20" height="20" style="vertical-align: middle; margin-right: 8px;"> SOL </td>
+                    <td>$151.11</td>
+                    <td>+0.7</td>
+                    <td>$79.292B</td>
+                    </tr>
+                    <tr>
+                    <td> <img src="./assets/cardano.webp" alt="ADA Logo" width="20" height="20" style="vertical-align: middle; margin-right: 8px;"> ADA </td>
+                    <td>$0.66</td>
+                    <td>0.1%</td>
+                    <td>$23.99B</td>
+                    </tr>
+                </tbody>
+            </table>
+    </div>
+</section>
+
+
+
+
+
+<!--
+
+AIRDROP ZONE SECTION
+
+-->
+<section>
+    <h3>Airdrops</h3>
+    <div>
+        <img src="./assets/monad-logo.jpg" alt="Monad logo">
+        <h3>Monad Testnet</h3>
+        <p>Monad is a new blockchain that works like Ethereum</p>
+        <button type="button">Farm Monad</button>
+    </div>
+    <div>
+        <img src="./assets/Newton-logo.jpg" alt="Newton logo">
+        <h3>Magic Newton</h3>
+        <p>Newton (Magic Newton) is a new blockchain network</p>
+        <button type="button">Farm Newton</button>
+    </div>
+    <div>
+        <img src="./assets/klok-logo.jpg" alt="Klok logo">
+        <h3>Klok App</h3>
+        <p>Klok is the first-ever chat app that lets users interact with multiple AI models</p>
+        <button type="button">Farm Klok</button>
+    </div>
+</section>
+
+
+
+<!--
+
+REPORT TOKEN SECTION 
+
+-->
+
+<section>
+    <div>
+        <form class="report-token-form">
+            <h3>Report Token</h3>
+            
+            <input type="text" placeholder="Name" name="token-name" required />
+            <input type="text" placeholder="Symbol" name="token-symbol" required />
+            <textarea placeholder="Description" name="description" rows="3"></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</section>
+
+
+
+
+<!--
+
+SUBSCRIBE SECTION 
+
+-->
+
+<section>
+    <div>
+        <form class="subscribe-form">
+            <h3>Subscribe for Updates</h3>
+
+            <input type="email" placeholder="Email Address" name="email" required />
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+</section>
+
+
+
+
+
+
+<!--
+
+TOP LISTING SECTION 
+
+-->
+
+
+<section class="top-listings">
+    <h3>Top Listings</h3>
+    <div class="listing-grid">
+        <div class="listing-card">
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25694.png" alt="Icon" />
+            <h4>New Token</h4>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="listing-card">
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25694.png" alt="Icon" />
+            <h4>Token Info</h4>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="listing-card">
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25694.png" alt="Icon" />
+            <h4>Crypto</h4>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<!-- 
+
+FOOTER SECTION 
+
+ -->
+
+ <footer>
+<p>Follow us:</p>
+  <div class="social-icons">
+    <a href="#"><i class="fab fa-x-twitter"></i></a>
+    <a href="#"><i class="fab fa-telegram"></i></a>
+    <a href="#"><i class="fab fa-discord"></i></a>
+    <a href="#"><i class="fab fa-youtube"></i></a>
+  </div>
+    <div>
+      <p>  <a href="#">About</a> | <a href="#">Terms</a> | <a href="#">Privacy</a></p>
+    </div>
+ </footer>
+
+
+
+</body>
+</html>
