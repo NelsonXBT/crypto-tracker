@@ -477,7 +477,7 @@ footer a:hover {
 
   .card {
     margin: 1rem 2.7rem;
-    padding: 0 1.4rem;
+    padding: 0 1.4rem 1rem 1.4rem;
   }
 
   .card h3 {
@@ -502,10 +502,10 @@ tbody td {
 .grid-item {
   padding: 1rem;
   text-align: center;
-  font-size: 0.55rem;
+  font-size: 0.8rem;
 }
 .grid-item h3 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     text-align: center;
 
 }
