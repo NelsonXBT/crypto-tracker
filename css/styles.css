@@ -502,10 +502,10 @@ tbody td {
 .grid-item {
   padding: 1rem;
   text-align: center;
-  font-size: 0.7rem;
+  font-size: 0.55rem;
 }
 .grid-item h3 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-align: center;
 
 }
@@ -522,7 +522,7 @@ tbody td {
 footer {
   padding: 1rem;
   margin: 5rem 0;
-  font-size: 0.8rem;
+  font-size: 0.65rem;
 }
 
 
