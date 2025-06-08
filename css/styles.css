@@ -78,21 +78,42 @@ img {
 }
 
 
+.logo h1 {
+  font-size: 1.25rem;    /* 20px */
+}
+
+.navbar {
+  padding: 1.5rem 2rem;  /* 24px top/bottom, 32px left/right */
+}
+
+
 
 /*
 BOX LAYOUTS 
  */
 
  .card {
-    background-color: yellow;
+  background-color: yellow;
   border: 0.2rem rgb(139, 9, 9) solid;
-  border-radius: 1rem;
+  border-radius: 0.6rem;
   padding: 0.25rem 0.5rem;
-  margin: 3rem 1rem 3rem 1rem;
+  margin: 1rem 1rem 1rem 1rem;
   
 }
+
+.card h3 {
+    font-size: 0.8rem;
+    text-align: left;
+}
+
+/*
+TABLE SECTION 
+ */
+
+
 table, th, td {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
+    font-weight: bold;
 }
 table {
   width: 100%;
@@ -104,7 +125,7 @@ table {
 
 thead th {
   background-color: ;
-  padding: 0.5rem 1.1rem;
+  padding: 0.4rem 1.1rem;
   text-align: left;
   font-weight: bold;
 }
@@ -121,7 +142,7 @@ tbody tr {
 }
 
 tbody td {
-  padding: 0.5rem;
+  padding: 0.15rem;
   border-top: 1px solid transparent; /* Prevent cell borders from clashing */
 }
 
@@ -137,41 +158,41 @@ tbody tr td:last-child {
 }
 
 
-.card h3 {
-    font-size: 0.8rem;
-    text-align: left;
-}
-
-
-.logo h1 {
-  font-size: 1.25rem;    /* 20px */
-}
-
-.navbar {
-  padding: 1.5rem 2rem;  /* 24px top/bottom, 32px left/right */
-}
-
 /*
-TABLE SECTION 
+AIRDROP SECTION Grid section
  */
 
- table {
-    font-size: 0.75rem;
- }
+ .grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  gap: 0.3rem; /* spacing between items */
+}
 
- tr {
-    border: 0.1rem solid red;
- }
+.grid-item {
+  background-color: #111;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  color: white;
+  text-align: center;
+  font-size: 0.3rem;
+}
 
-/*
-HERO SECTION 
- */
+.grid-item img {
+    width: 3rem;
+    height: 3rempx;
+    border: 0.1rem solid #ffa9dc;
+    border-radius: 50%;
+}
 
- .hero {
-    font-size: 19rem;
- }
+.grid-item h3 {
+    font-size: 0.7rem;
+}
 
-
+.grid-item button {
+    font-size: 0.7rem;
+    background-color: #ff0;
+    border: #0e0e0e solid;
+}
 
 
 
