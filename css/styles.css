@@ -3,13 +3,16 @@ GLOBAL STYLES
 */
 
 html {
-    /* background-color: #eee; */
+     background-color: #023020;
+     
+     
 }
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 10px;
     margin: 0 auto;
+    height: 100%;
     width: 100vw;
     text-align: center;
     overflow-x: hidden;
@@ -93,11 +96,12 @@ BOX LAYOUTS
  */
 
  .card {
-  background-color: yellow;
-  border: 0.2rem rgb(139, 9, 9) solid;
+  background-color: #000f0a;
+  border: 0.2rem #000f0a solid;
   border-radius: 0.6rem;
   padding: 0.25rem 0.5rem;
   margin: 1rem 1rem 1rem 1rem;
+  color: white;
   
 }
 
@@ -114,6 +118,7 @@ TABLE SECTION
 table, th, td {
     font-size: 0.6rem;
     font-weight: bold;
+    color: white;
 }
 table {
   width: 100%;
@@ -130,7 +135,7 @@ thead th {
   font-weight: bold;
 }
 thead tr {
-  background-color: #ff0;              /* Same yellow background */
+  background-color: #000f0a;              /* Same yellow background */
   box-shadow: 0 0 0 1px #333;          /* Outer border like the rows */
 }
 
@@ -188,25 +193,32 @@ AIRDROP SECTION Grid section
   border-radius: 0.3rem;
   color: white;
   text-align: center;
-  font-size: 0.3rem;
+  font-size: 0.5rem;
 }
 
 .grid-item img {
     width: 3rem;
     height: 3rempx;
-    border: 0.1rem solid #ffa9dc;
+    border: 0.2rem solid #023020;
     border-radius: 50%;
 }
 
 .grid-item h3 {
     font-size: 0.7rem;
+    text-align: center;
 }
 
 .grid-item button {
     font-size: 0.7rem;
-    background-color: #ff0;
+    background-color: #d4a54f;
     border: #0e0e0e solid;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 0.5rem 0.8rem;
+    
 }
+
+
 
 
 
@@ -276,19 +288,23 @@ TOP LISTING SECTION
   gap: 1rem;
 }
 
+#grid-item2 {
+  margin-bottom: 1rem;
+}
+
 .grid-item2 {
   display: flex;
   align-items: center;
   gap: 1rem;
   background-color: white;
   padding: 1rem;
-  border-radius: 12px;
+  border-radius: 0.5rem;
   box-shadow: 0 0 0 1px #ddd;
 }
 
 .grid-item2 img {
-  width: 40px;
-  height: 40px;
+  width: 2rem;
+  height: 2rem;
   border-radius: 50%;
 }
 
@@ -309,7 +325,24 @@ TOP LISTING SECTION
   flex-direction: column;
 }
 
+/* 
+FOOTER SECTION
+*/
 
+footer {
+  background-color: black;
+  color: white;
+  font-size: 0.8rem;
+  padding: 1rem;
+  margin: 5rem 0;
+}
+
+.social-icons {
+  font-size: 2rem;
+}
+
+
+ 
 
 
 
