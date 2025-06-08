@@ -161,11 +161,9 @@ table {
   border-collapse: separate;
   border-spacing: 0 0.5rem; /* Adds space between rows */
   font-family: sans-serif;
-  color: rgb(14, 0, 0);
 }
 
 thead th {
-  background-color: ;
   padding: 0.4rem 1.1rem;
   text-align: left;
   font-weight: bold;
@@ -177,7 +175,6 @@ thead tr {
 
 
 tbody tr {
-  background-color: ;
   box-shadow: 0 0 0 1px #333;
   
 }
@@ -389,14 +386,16 @@ TOP LISTING SECTION
 
 .grid-item2 h4 {
   margin: 0;
+  padding: 0 0 0.5rem 0;
   font-size: 1rem;
   font-weight: 600;
 }
 
 .grid-item2 p {
   margin: 0;
-  font-size: 0.85rem;
+  font-size: 0.65rem;
   color: #fcfcfc;
+  font-weight: 100;
 }
 
 .grid-item2 div {
@@ -476,5 +475,3 @@ footer a:hover {
     align-items: flex-start;
   }
 } */
-
-
