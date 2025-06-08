@@ -77,6 +77,133 @@ img {
   cursor: pointer;
 }
 
+
+
+/*
+BOX LAYOUTS 
+ */
+
+ .card {
+    background-color: yellow;
+  border: 0.2rem rgb(139, 9, 9) solid;
+  border-radius: 1rem;
+  padding: 0.25rem 0.5rem;
+  margin: 3rem 1rem 3rem 1rem;
+  
+}
+table, th, td {
+    font-size: 0.7rem;
+}
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 0.5rem; /* Adds space between rows */
+  font-family: sans-serif;
+  color: rgb(14, 0, 0);
+}
+
+thead th {
+  background-color: ;
+  padding: 0.5rem 1.1rem;
+  text-align: left;
+  font-weight: bold;
+}
+thead tr {
+  background-color: #ff0;              /* Same yellow background */
+  box-shadow: 0 0 0 1px #333;          /* Outer border like the rows */
+}
+
+
+tbody tr {
+  background-color: ;
+  box-shadow: 0 0 0 1px #333;
+  
+}
+
+tbody td {
+  padding: 0.5rem;
+  border-top: 1px solid transparent; /* Prevent cell borders from clashing */
+}
+
+/* Rounded corners for each row */
+tbody tr td:first-child {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+tbody tr td:last-child {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+
+.card h3 {
+    font-size: 0.8rem;
+    text-align: left;
+}
+
+
+.logo h1 {
+  font-size: 1.25rem;    /* 20px */
+}
+
+.navbar {
+  padding: 1.5rem 2rem;  /* 24px top/bottom, 32px left/right */
+}
+
+/*
+TABLE SECTION 
+ */
+
+ table {
+    font-size: 0.75rem;
+ }
+
+ tr {
+    border: 0.1rem solid red;
+ }
+
+/*
+HERO SECTION 
+ */
+
+ .hero {
+    font-size: 19rem;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Responsive: Mobile view */
 @media (max-width: 768px) {
   .hamburger {
@@ -105,15 +232,3 @@ img {
 }
 
 
-/* 
-nav ul {
-    font-size: 1.2rem;
-    display: flex;
-    justify-content: center;
-}
-
-nav li {
-    margin: 0 1rem;
-    list-style: none;
-    
-} */
