@@ -197,9 +197,57 @@ AIRDROP SECTION Grid section
 
 
 
+/*
+REPORT TOKEN SECTION
+ */
 
+.report-token-form {
+  background-color: #0e0e0e;  /* Matches card background */
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-top: 2rem;
+  color: white;
+}
 
+.report-token-form h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
 
+.report-token-form input,
+.report-token-form textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  background-color: #111;
+  border: 1px solid #333;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  color: white;
+  outline: none;
+}
+
+.report-token-form input::placeholder,
+.report-token-form textarea::placeholder {
+  color: #777;
+}
+
+.report-token-form button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #d4a54f;
+  border: none;
+  border-radius: 8px;
+  color: #000;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.report-token-form button:hover {
+  background-color: #c6953d;
+}
 
 
 
