@@ -520,8 +520,9 @@ tbody td {
 }
 
 footer {
+  padding: 1rem;
+  margin: 5rem 0;
   font-size: 0.8rem;
-
 }
 
 
@@ -529,6 +530,7 @@ footer {
  
 
 
+@media (min-width: px)
 
 
 
