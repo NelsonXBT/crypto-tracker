@@ -252,9 +252,48 @@ REPORT TOKEN SECTION
 
 
 
+/*
+TOP LISTING SECTION
+ */
 
+.grid-container2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
 
+.grid-item2 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 0 0 1px #ddd;
+}
 
+.grid-item2 img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.grid-item2 h4 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.grid-item2 p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.grid-item2 div {
+  display: flex;
+  flex-direction: column;
+}
 
 
 
