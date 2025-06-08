@@ -45,7 +45,10 @@ img {
   gap: 0.2rem;
   color: white;
 }
-
+.logo a {
+  color: white;
+  text-decoration: none;
+}
 .logo img {
   height: 2.5rem;
 }
@@ -461,8 +464,10 @@ footer a:hover {
 
 
 .search-form button {
+  width: 20%;
+  height: 15%;
   font-weight: bold;
-  font-size: 0.85rem;
+  font-size: 1rem;
   
 }
 
@@ -470,13 +475,107 @@ footer a:hover {
 
 .search-form input,
 .search-form textarea {
-  font-size: 0.85rem;
+  width: 20%;
+  height: 15%;
+  font-size: 1rem;
   
 }
 
 
   .card {
     margin: 1rem 2.7rem;
+    padding: 0 1.4rem 1rem 1.4rem;
+  }
+
+  .card h3 {
+    font-size: 1.3rem;
+    text-align: left;
+    font-weight: bold;
+}
+
+table, th, td {
+    font-size: 1rem;
+}
+thead th {
+  padding: 0.5rem 2.2rem;
+  text-align: left;
+  font-weight: bold;
+}
+tbody td {
+  padding: 0.5rem;
+}
+
+
+.grid-item {
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.8rem;
+}
+.grid-item h3 {
+    font-size: 1.4rem;
+    text-align: center;
+
+}
+
+.grid-item button {
+    font-size: 1.1rem;
+    width: 45%;
+    margin: 0 2rem;
+
+    padding: 0.5rem 0.8rem;
+    
+}
+
+footer {
+  padding: 1rem;
+  margin: 5rem 0;
+  font-size: 0.8rem;
+}
+
+
+}
+ 
+
+
+@media (min-width: 1000px) {
+
+
+
+ .nav-links {
+  padding: 0 0 0 2.4rem;
+  font-size: 1.5rem;
+}
+
+.logo img {
+  height: 3.5rem;
+}
+.logo h1 {
+  padding: 0 20rem 0 0;;
+  font-size: 2rem;
+}
+
+
+.search-form button {
+  width: 20%;
+  height: 15%;
+  font-weight: bold;
+  font-size: 1rem;
+  
+}
+
+
+
+.search-form input,
+.search-form textarea {
+  width: 20%;
+  height: 15%;
+  font-size: 1rem;
+  
+}
+
+
+  .card {
+    margin: 2rem 5.4rem;
     padding: 0 1.4rem 1rem 1.4rem;
   }
 
@@ -522,15 +621,18 @@ tbody td {
 footer {
   padding: 1rem;
   margin: 5rem 0;
-  font-size: 0.65rem;
+  font-size: 0.8rem;
 }
 
 
+
+
+
+
+
+
+
 }
- 
-
-
-@media (min-width: px)
 
 
 
