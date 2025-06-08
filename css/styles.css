@@ -158,6 +158,20 @@ tbody tr td:last-child {
 }
 
 
+/* 
+PRICE UP OR DOWN ARROW
+*/
+
+.price-up {
+  color: green;
+}
+
+.price-down {
+  color: red;
+}
+
+
+
 /*
 AIRDROP SECTION Grid section
  */
