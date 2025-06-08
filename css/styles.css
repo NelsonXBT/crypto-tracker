@@ -34,7 +34,7 @@ img {
   align-items: center;
   justify-content: space-between;
   padding: 2rem 3rem;
-  background-color: #0e0e0e;
+  background-color: #000f0a;
   flex-wrap: wrap;
   position: relative;
 }
@@ -70,15 +70,47 @@ img {
 .search-form {
   display: flex;
    gap: 1rem;
+   justify-content: center;
+   margin: 1rem;
+   
 }
 
+.search-form input,
+.search-form textarea {
+  width: 60%;
+  padding: 0.75rem 1rem;
+  margin-bottom: ;
+  background-color: #000f0a;
+  border: 0.1rem solid #000f0a;
+  border-radius: 0.5rem;
+  font-size: 0.95rem;
+  color: white;
+  outline: none;
+}
+
+.search-form button {
+  width: 40%;
+  padding: 0.75rem ;
+  margin-bottom: 1rem;
+  background-color: #d4a54f;
+  border: none;
+  border-radius: 8px;
+  color: #000;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+}
+
+
 /* Hamburger hidden on desktop */
-.hamburger {
+/* .hamburger {
   display: none;
   font-size: 2rem;
   color: white;
   cursor: pointer;
-}
+} */
 
 
 .logo h1 {
@@ -372,17 +404,29 @@ TOP LISTING SECTION
 FOOTER SECTION
 */
 
+
 footer {
-  background-color: black;
+  background-color: #000f0a;
   color: white;
   font-size: 0.8rem;
   padding: 1rem;
   margin: 5rem 0;
 }
 
-.social-icons {
-  font-size: 2rem;
+footer a {
+  color: #c6953d;
 }
+footer a:hover {
+  color: #e09201;
+}
+
+.social-icons a {
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+
 
 
  
@@ -404,13 +448,13 @@ footer {
 
 /* Responsive: Mobile view */
 @media (max-width: 768px) {
-  .hamburger {
+  /* .hamburger {
     display: block;
-  }
+  } */
 
-  .nav-links,
+  /* .nav-links,
   .search-form {
-    display: none;
+    display: flex;
     width: 100%;
     flex-direction: column;
     background-color: #111;
@@ -427,6 +471,6 @@ footer {
   .navbar {
     align-items: flex-start;
   }
-}
+} */
 
 
