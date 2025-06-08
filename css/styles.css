@@ -432,6 +432,96 @@ footer a:hover {
 
 
 
+
+
+
+/* Responsive: Mobile view */
+@media (min-width: 768px) {
+  
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 3rem;
+  flex-wrap: wrap;
+  
+}
+
+.nav-links {
+  padding: 0 0 0 2.4rem;
+  font-size: 1rem;
+}
+
+.logo img {
+  height: 3.5rem;
+}
+.logo h1 {
+  padding: 0 10rem 0 0;;
+  font-size: 1.6rem;
+}
+
+
+.search-form button {
+  font-weight: bold;
+  font-size: 0.85rem;
+  
+}
+
+
+
+.search-form input,
+.search-form textarea {
+  font-size: 0.85rem;
+  
+}
+
+
+  .card {
+    margin: 1rem 2.7rem;
+    padding: 0 1.4rem;
+  }
+
+  .card h3 {
+    font-size: 1.4rem;
+    text-align: left;
+    font-weight: bold;
+}
+
+table, th, td {
+    font-size: 1rem;
+}
+thead th {
+  padding: 0.5rem 2.2rem;
+  text-align: left;
+  font-weight: bold;
+}
+tbody td {
+  padding: 0.5rem;
+}
+
+
+.grid-item {
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.8rem;
+}
+.grid-item h3 {
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+.grid-item button {
+    font-size: 1.1rem;
+    width: 45%;
+    margin: 0 2rem;
+
+    padding: 0.5rem 0.8rem;
+    
+}
+
+
+
+}
  
 
 
@@ -449,29 +539,4 @@ footer a:hover {
 
 
 
-/* Responsive: Mobile view */
-@media (max-width: 768px) {
-  /* .hamburger {
-    display: block;
-  } */
 
-  /* .nav-links,
-  .search-form {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    background-color: #111;
-    margin-top: 20px;
-    padding: 15px;
-    border-radius: 8px;
-  }
-
-  .nav-links.show,
-  .search-form.show {
-    display: flex;
-  }
-
-  .navbar {
-    align-items: flex-start;
-  }
-} */
